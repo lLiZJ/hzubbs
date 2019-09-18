@@ -36,10 +36,10 @@
     <!-- 导航 -->
       <div class="row nav">
         <div class="col-md-12">
-          <p><a href="">首页</a></p>
-          <p><a href="">目录</a></p>
-          <p><a href="">精华区</a></p>
-          <p><a href="">关注/粉丝</a></p>
+          <p><a href="javascript:;">首页</a></p>
+          <p><a href="javascript:;">目录</a></p>
+          <p><a href="javascript:;">精华区</a></p>
+          <p><a href="javascript:;">关注/粉丝</a></p>
         </div>
       </div>
   </div>

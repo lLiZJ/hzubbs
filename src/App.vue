@@ -25,4 +25,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+a{
+  color: #495057;
+}
+a:hover {
+  text-decoration-line: none;
+}
 </style>

@@ -4,14 +4,22 @@
       <div class="col-md-2 left">
         <slider-view></slider-view>
       </div>
+      <!-- 侧边栏填充 -->
+      <div class="col-md-2 left-box">
+      </div>
       <div class="col-md-10 right">
-        <div class="row header">
-          <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-10 header">
             <header-view></header-view>
           </div>
         </div>
-        <div class="row main">
+        <!-- 头部填充 -->
+        <div class="row header-box">
           <div class="col-md-12">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 main">
             <main-view></main-view>
           </div>
         </div>
@@ -51,6 +59,10 @@ export default {
   .left {
     height: 100%;
     background-color:rgb(226, 169, 116);
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
   }
   .right {
     height: 100%;
@@ -59,9 +71,16 @@ export default {
   .header {
     height: 10%;
     background: rgb(210, 224, 145);
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 0;
+  }
+  .header-box {
+    height: 10%;
   }
   .main {
-    height: 90%;
+    padding: 5%;
     /* background: rgb(106, 218, 203); */
   }
 
