@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+    这是主体
   </div>
 </template>
 
