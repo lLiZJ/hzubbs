@@ -1,9 +1,11 @@
-import HelloWorld from '@/components/HelloWorld'
 
 export default [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+  {
+    path: '/',
+    component: () => import('@/components/body')
+  },
+  {
+    path: '/login',
+    component: () => import('@/view/login')
+  }
 ] 

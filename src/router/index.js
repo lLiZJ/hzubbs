@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import router from './routers'
+
 Vue.use(Router)
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      component: () => import('@/components/body')
-    }
-  ]
+const route = new Router({
+  mode: 'history',
+  routes: router
 })
+
+export default route

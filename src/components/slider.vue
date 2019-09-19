@@ -23,12 +23,12 @@
               <div class="form-group">
                 <input type="password" class="form-control" placeholder="密码 / password" />
               </div>
-              <button type="submit" class="btn btn-info login-form-button">登录</button>
-              <button type="button" class="btn btn-info login-form-button">注册</button>
+              <button type="submit" class="btn btn-info login-form-button" @click.prevent="show">登录</button>
+              <button type="button" class="btn btn-info login-form-button" @click.prevent="show">注册</button>
             </form>
           </div>
           <div class="col-md-12">
-            <a href="">找回密码</a>
+            <a href="" @click.prevent="show">找回密码</a>
           </div>
         </div>
       </div>
@@ -36,10 +36,10 @@
     <!-- 导航 -->
       <div class="row nav">
         <div class="col-md-12">
-          <p><a href="javascript:;">首页</a></p>
-          <p><a href="javascript:;">目录</a></p>
-          <p><a href="javascript:;">精华区</a></p>
-          <p><a href="javascript:;">关注/粉丝</a></p>
+          <p><a href="login" @click.prevent="show">首页</a></p>
+          <p><a href="javascript:;" @click.prevent="show">目录</a></p>
+          <p><a href="javascript:;" @click.prevent="show">精华区</a></p>
+          <p><a href="javascript:;" @click.prevent="show">关注/粉丝</a></p>
         </div>
       </div>
   </div>
@@ -53,6 +53,11 @@ export default {
     return {
       msg: ""
     };
+  },
+  methods: {
+    show() {
+      alert("测试");
+    }
   }
 };
 </script>
@@ -65,7 +70,7 @@ export default {
 }
 .logo {
   height: 10%;
-  background: rgb(125, 214, 187);
+  background: rgb(190, 213, 240);
   
 }
 
@@ -103,9 +108,10 @@ export default {
   padding-top: 20px;
 }
 .login-form-button {
-  height: 30px;
-  width: 60px;
-  margin: 0 10px;
+  height: 25px;
+  width: 50px;
+  margin: 0 1%;
+  font-size: 50%;
   line-height: 1;
   background-color: rgb(90, 154, 197);
   border-color: rgb(126, 186, 226);

@@ -58,35 +58,35 @@
     </Row>
     <Row :gutter="14" style="margin-top: 14px;">
       <i-col span="9">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">一区</a>
+            <a href="javascript:;" @click.prevent.stop="show">一区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" align="middle" class="countto-page-row">
             <div class="padding-15">
               <p> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
             </div>
           </Row>
         </Card>
       </i-col>
       <i-col span="9" class="padding-left-10">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">二区</a>
+            <a href="javascript:;" @click.prevent.stop="show">二区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>
@@ -99,87 +99,87 @@
     </Row>
     <Row :gutter="14" style="margin-top: 14px;">
       <i-col span="9">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">三区</a>
+            <a href="javascript:;" @click.prevent.stop="show">三区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" align="middle" class="countto-page-row">
             <div class="padding-15">
               <p> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
               <p class="margin-top-5"> 
-                <a href="javascript:;" @click.prevent="show" class="color-orangered">[版面]</a>
-                <a href="javascript:;" @click.prevent="show" class="color-yellowgreen">帖子</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-orangered">[版面]</a>
+                <a href="javascript:;" @click.prevent.stop="show" class="color-yellowgreen">帖子</a>
               </p>
             </div>
           </Row>
         </Card>
       </i-col>
       <i-col span="9" class="padding-left-10">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">四区</a>
+            <a href="javascript:;" @click.prevent.stop="show">四区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>
     </Row>
     <Row :gutter="14" style="margin-top: 14px;">
       <i-col span="9">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">五区</a>
+            <a href="javascript:;" @click.prevent.stop="show">五区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>
       <i-col span="9" class="padding-left-10">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">六区</a>
+            <a href="javascript:;" @click.prevent.stop="show">六区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>
     </Row>
     <Row :gutter="14" style="margin-top: 14px;">
       <i-col span="9">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">七区</a>
+            <a href="javascript:;" @click.prevent.stop="show">七区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>
       <i-col span="9" class="padding-left-10">
-        <Card>
+        <Card @click.native="show">
           <p slot="title">
-            <a href="javascript:;" @click.prevent="show">八区</a>
+            <a href="javascript:;" @click.prevent.stop="show">八区</a>
           </p>
-          <a href="javascript:;" slot="extra" @click.prevent="show">更多</a>
+          <a href="javascript:;" slot="extra" @click.prevent.stop="show">更多</a>
           <Row type="flex" justify="center" align="middle" class="countto-page-row"></Row>
         </Card>
       </i-col>

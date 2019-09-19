@@ -58,7 +58,7 @@ export default {
   }
   .left {
     height: 100%;
-    background-color:rgb(226, 169, 116);
+    background-color:rgb(229, 186, 145);
     position: fixed;
     z-index: 100;
     left: 0;
@@ -70,7 +70,7 @@ export default {
   }
   .header {
     height: 10%;
-    background: rgb(210, 224, 145);
+    background: rgb(179, 226, 178);
     position: fixed;
     z-index: 100;
     right: 0;
