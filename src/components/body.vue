@@ -19,7 +19,21 @@
           </div>
         </div>
         <div class="row">
+          <div class="breadcrumb">
+            <Breadcrumb>
+              <BreadcrumbItem to="/">
+                  <Icon type="ios-home-outline"></Icon> Home
+              </BreadcrumbItem>
+              <BreadcrumbItem to="/components/breadcrumb">
+                  <Icon type="logo-buffer"></Icon> Components
+              </BreadcrumbItem>
+              <BreadcrumbItem>
+                  <Icon type="ios-cafe"></Icon> Breadcrumb
+              </BreadcrumbItem>
+            </Breadcrumb>
+          </div>
           <div class="col-md-12 main">
+            
             <main-view></main-view>
           </div>
         </div>
@@ -80,8 +94,13 @@ export default {
     height: 10%;
   }
   .main {
-    padding: 5%;
+    padding: 1% 5%;
     /* background: rgb(106, 218, 203); */
   }
 
+  .breadcrumb {
+    /* background-color: #fff; */
+    background: #f0f0f0;
+    margin: 1% 4%;
+  }
 </style>

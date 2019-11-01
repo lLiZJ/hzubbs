@@ -1,15 +1,23 @@
 <template>
-    <div>
-        这是登录页面
+    <div class="box">
+        <button @click="show">show</button>
+        <img src="../../build/logo.png" alt="">
     </div>
 </template>
 
 <script>
 export default {
-    
+    data() {
+        return {
+            msg: ''
+        }
+    },
+    methods: {
+        show() {
+        }
+    }
 }
 </script>
 
-<style scoped>
-
+<style scope>
 </style>

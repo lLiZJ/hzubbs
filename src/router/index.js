@@ -7,7 +7,8 @@ Vue.use(Router)
 
 const route = new Router({
   mode: 'history',
-  routes: router
+  routes: router,
+  base: '/vueTest'
 })
 
 export default route
